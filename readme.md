@@ -44,8 +44,6 @@ Example: `java -jar vm-github-1.0.jar pull -c your/config.txt`
 
 ### Push
 
-**WARNING: this will delete the any modified files in this folder**
-
 Pushes files to the repository and creates a pull request (the pull request url will be printed to the console).
 
 Example: `java -jar vm-github-1.0.jar push -c your/config.txt`
