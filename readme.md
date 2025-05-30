@@ -47,3 +47,10 @@ Example: `java -jar vm-github-1.0.jar pull -c your/config.txt`
 Pushes files to the repository and creates a pull request (the pull request url will be printed to the console).
 
 Example: `java -jar vm-github-1.0.jar push -c your/config.txt`
+
+## Known issues
+
+### Windows file name endings
+
+If you get a `FileNotFoundException` make sure that your file name ending is correct. If you create a new text file on windows it will automatically
+append `.txt` to it. So if you name your file `config.txt` it will actually be `config.txt.txt`, this can lead to file not found errors.
