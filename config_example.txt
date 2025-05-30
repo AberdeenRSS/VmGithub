@@ -1,0 +1,5 @@
+owner=AberdeenRSS
+repo=Engineering
+branch=master
+token=YOUR GITHUB PAT
+folder=Engineering
